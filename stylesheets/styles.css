@@ -1,0 +1,123 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+    font-family: "Kumbh Sans", sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+body::before {
+    content: url(../images/bg-pattern-top.svg);
+    position: fixed;
+    right: 53vw;
+    bottom: 20vh;
+}
+
+body::after {
+    content: url(../images/bg-pattern-bottom.svg);
+    position: fixed;
+    left: 47vw;
+    top: 50vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 21rem;
+    height: 22rem;
+    background-color: white;
+    z-index: 1;
+    border-radius: 1rem;
+    box-shadow: 0 0 2rem rgba(121, 121, 121, 0.3);
+}
+
+.profile {
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner {
+    height: 8rem;
+    background-image: url(../images/bg-pattern-card.svg);
+    border-radius: 1rem 1rem 0 0;
+}
+
+.introduction {
+    flex-grow: 1;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    position: absolute;
+    top: -3.375rem;
+    left: 7.125rem;
+    border: 6px solid white;
+}
+
+.intro-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 1rem;
+}
+
+#name {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#age {
+    padding-left: 5px;
+    font-weight: 400;
+}
+
+#location {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.stats {
+    width: 100%;
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    box-shadow: 0 -1px 1px hsla(0, 0%, 59%, 0.2);
+}
+
+.quantity {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-top: 6px;
+}
+
+.attribute {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 3px;
+    padding-bottom: 6px;
+}
+
+.attribution {
+    font-size: 16px; text-align: center;
+}
+
+.attribution a {
+    color: white;
+}

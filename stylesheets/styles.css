@@ -24,6 +24,10 @@ body::after {
     top: 50vh;
 }
 
+header {
+    visibility: hidden;
+}
+
 main {
     display: flex;
     flex-direction: column;

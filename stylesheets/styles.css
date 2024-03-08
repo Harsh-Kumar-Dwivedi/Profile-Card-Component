@@ -38,7 +38,7 @@ main {
 
 h1 {
     position: absolute;
-    z-index: -3;
+    visibility: hidden;
 }
 
 .profile {

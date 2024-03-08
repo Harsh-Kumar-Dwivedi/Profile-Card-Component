@@ -24,10 +24,6 @@ body::after {
     top: 50vh;
 }
 
-main h1 {
-    visibility: hidden;
-}
-
 main {
     display: flex;
     flex-direction: column;
@@ -37,6 +33,10 @@ main {
     z-index: 1;
     border-radius: 1rem;
     box-shadow: 0 0 2rem rgba(121, 121, 121, 0.3);
+}
+
+main > h1 {
+    visibility: hidden;
 }
 
 .profile {

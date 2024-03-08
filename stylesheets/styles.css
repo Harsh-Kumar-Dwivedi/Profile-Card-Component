@@ -24,6 +24,10 @@ body::after {
     top: 50vh;
 }
 
+main:first-child {
+    visibility: hidden;
+}
+
 main {
     display: flex;
     flex-direction: column;

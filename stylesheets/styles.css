@@ -24,7 +24,7 @@ body::after {
     top: 50vh;
 }
 
-main:first-child {
+main h1 {
     visibility: hidden;
 }
 

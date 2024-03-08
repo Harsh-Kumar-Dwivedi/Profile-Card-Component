@@ -24,7 +24,7 @@ body::after {
     top: 50vh;
 }
 
-h1 {
+main > h1 {
     display: none;
 }
 

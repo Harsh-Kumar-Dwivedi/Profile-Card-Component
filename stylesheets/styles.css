@@ -25,6 +25,7 @@ body::after {
 }
 
 main {
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 21rem;
@@ -36,6 +37,7 @@ main {
 }
 
 h1 {
+    position: absolute;
     visibility: hidden;
 }
 
